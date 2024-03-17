@@ -1,0 +1,102 @@
+.container {
+  border: 1px solid black;
+  position: relative;
+  width: 330px;
+  margin: 10px;
+}
+
+img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+.photo {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  border: 3px solid white;
+  position: absolute;
+  top: 20px;
+  left: 10px;
+}
+
+.OneR {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  padding: 10px 10px 10px 120px;
+}
+
+.email-phone {
+  background-color: #d8dcdf;
+  text-decoration: none;
+  font-weight: bold;
+  font-style: italic;
+  padding-left: 20px;
+  padding: 12px;
+  color: #999ea2;
+}
+
+#title {
+  background-color: #ffffff;
+  padding: 30px;
+  justify-content: left;
+  align-items: left;
+  display: flex;
+  font-weight: bold;
+  font-style: italic;
+  color: #868a8d;
+  font-size: 13px;
+}
+
+#FLname {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+}
+#city {
+  color: #e9e0e0;
+  font-size: 12px;
+}
+
+#birthdate {
+  color: #e9e0e0;
+  font-size: 12px;
+}
+
+#phone {
+  color: #555d65;
+  margin-right: 5px;
+  font-size: 11px;
+}
+
+#email {
+  color: #555d65;
+  margin-right: 5px;
+  font-size: 14px;
+}
+
+#ct {
+  font-size: 10px;
+  margin-right: 5px;
+}
+
+#bd {
+  font-size: 10px;
+  margin-right: 5px;
+}
+
+.email-phone span {
+  font-size: 14px;
+  color: #7d858b;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+    max-width: none;
+  }
+}
