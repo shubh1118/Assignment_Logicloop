@@ -1,53 +1,31 @@
-.parent-containerA {
-  background-color: #8d63d0;
-  width: 100vw;
-  height: 100vh;
+.container-admin {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.profile {
   display: flex;
-  justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
 }
-
-.cardA {
-  background-color: #d4e2ec;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  border-radius: 20px;
-  width: 400px;
+.profile img {
+  border-radius: 50%;
+  margin-right: 20px;
+  width: 100px;
+  height: 100px;
 }
-
-.card-info {
-  margin-left: 45px;
+.profile h1 {
+  margin: 0;
 }
-
-#emailA,
-#phoneA,
-#addressA,
-#companyA,
-#postalcodeA {
-  font-size: 15px;
-  font-style: italic;
-  font-weight: bold;
-  margin: 10px;
-  width: calc(90% - 20px);
-  height: 30px;
-  padding: 5px;
-  border: 2px solid #7cd6a1;
-  border-radius: 5px;
-  background: linear-gradient(to bottom, #9ae5c2, #7cd6a1);
-  box-shadow: 0 0 10px rgba(142, 114, 114, 0.5);
-  transition: box-shadow 0.3s;
+.section {
+  margin-bottom: 20px;
 }
-
-#emailA:hover,
-#phoneA:hover,
-#addressA:hover,
-#companyA:hover,
-#postalcodeA:hover {
-  box-shadow: 0 0 15px rgba(142, 114, 114, 0.8);
+.section h2 {
+  margin-top: 0;
 }
-
-@media (max-width: 768px) {
-  .cardA {
-    width: 90%;
-    max-width: none;
-  }
+.section p {
+  margin: 0;
 }
